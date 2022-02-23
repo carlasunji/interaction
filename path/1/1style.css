@@ -1,0 +1,34 @@
+/* .outer {
+  width: 100%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+} */
+
+.right {
+  /* right: +100; */
+  float: right;
+}
+
+/* .center {
+  color: #43CAB2;
+} */
+
+.left {
+  /* left: -100; */
+  float: left;
+  /* width: 100%; */
+  /* position: fixed; */
+}
+
+div {
+  width: 300%;
+  overflow: scroll;
+  display: flex;
+}
+
+/* div {
+  display: inline-block;
+  position: relative;
+  overflow-x: scroll;
+  width: 100%;
+} */
