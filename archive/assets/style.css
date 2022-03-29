@@ -60,6 +60,11 @@
 	background-color: #c4c4c4;
 }
 
+.audio:active, .videos:active, .images:active, .links:active, .all:active {
+	background-color: #c4c4c4;
+	color: blue;
+}
+
 #channel-description {
 	display: none;
 }
