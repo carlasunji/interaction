@@ -1,0 +1,66 @@
+@media (max-width: 400px) and (orientation: portrait) {
+  body, #container {
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+
+  #container {
+    flex-direction: column;
+  }
+
+  .entry{
+    width: calc((100vw- 10px));
+    height: 100vh;
+  }
+}
+
+/* font-family: 'Bebas Neue', cursive;
+font-family: 'Comfortaa', cursive;
+font-family: 'Courgette', cursive;
+font-family: 'Pathway Gothic One', sans-serif; */
+
+body, #container {
+  margin: 0;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.backgroundframe {
+  width: 100vw;
+  height: 100vh;
+  opacity: 30%;
+}
+
+#container {
+  position: absolute;
+  top: 0;
+  left: 1%;
+  display: flex;
+  flex-direction: row;
+  grid-gap: 1%;
+}
+
+.entry {
+  width: 20%;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.carla {
+  /* font-family: 'Pathway Gothic One', sans-serif; */
+  font-family: 'Bebas Neue', cursive;
+  font-size: 200%;
+  color: blue;
+  background: rgba(256, 256, 265, .5);
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.nour {
+  font-family: 'Comfortaa', cursive;
+  color: darkblue;
+  background: rgba(256, 256, 265, .5);
+  border-radius: 5px;
+  padding: 5px;
+}
