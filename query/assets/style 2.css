@@ -1,0 +1,73 @@
+@media (max-width: 400px) and (orientation: portrait) {
+  body {
+    margin: 0;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 32, 245, .5);
+  }
+
+  #container {
+    position: absolute;
+    margin: 0;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    grid-gap: 1%;
+    overflow-y: hidden;
+  }
+
+  .button {
+    width: 30vw;
+    border-radius: 10px;
+    padding: 15px 20px;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    position: absolute;
+    cursor: pointer;
+    color: white;
+    background-color: blue;
+    font-family: 'Comfortaa', cursive;
+    left: 2%;
+  }
+
+  .button:hover {
+    background-color: white;
+    color: blue;
+  }
+
+  .entry{
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .backgroundframe {
+    width: 100vw;
+    height: 100vh;
+    opacity: 100%;
+    left: 0;
+  }
+
+  .carla {
+    /* font-family: 'Pathway Gothic One', sans-serif; */
+    font-family: 'Bebas Neue', cursive;
+    font-size: 200%;
+    color: white;
+    background: rgba(0, 32, 245, 1);
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 5%;
+    margin-bottom: 3%;
+  }
+
+  .nour {
+    font-family: 'Comfortaa', cursive;
+    color: #eeeeee;
+    background: rgba(0, 32, 245, 1);
+    border-radius: 5px;
+    padding: 5px;
+    line-height: 1.4;
+    margin-top: 3%
+  }
+}

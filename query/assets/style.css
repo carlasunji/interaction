@@ -1,25 +1,3 @@
-@media (max-width: 400px) and (orientation: portrait) {
-  body, #container {
-    margin: 0;
-    overflow-x: hidden;
-    overflow-y: scroll;
-  }
-
-  #container {
-    flex-direction: column;
-  }
-
-  .entry{
-    width: calc((100vw- 10px));
-    height: 100vh;
-  }
-}
-
-/* font-family: 'Bebas Neue', cursive;
-font-family: 'Comfortaa', cursive;
-font-family: 'Courgette', cursive;
-font-family: 'Pathway Gothic One', sans-serif; */
-
 body, #container {
   margin: 0;
   overflow-x: scroll;
@@ -29,7 +7,7 @@ body, #container {
 .backgroundframe {
   width: 100vw;
   height: 100vh;
-  opacity: 30%;
+  opacity: 40%;
 }
 
 #container {
@@ -39,6 +17,27 @@ body, #container {
   display: flex;
   flex-direction: row;
   grid-gap: 1%;
+}
+
+.button {
+  width: 8vw;
+  border-radius: 10px;
+  padding: 15px 20px;
+  font-size: 20px;
+  text-align: center;
+  display: block;
+  position: absolute;
+  cursor: pointer;
+  color: white;
+  background-color: blue;
+  font-family: 'Comfortaa', cursive;
+  top: 12%;
+  left: .75%;
+}
+
+.button:hover {
+  background-color: white;
+  color: blue;
 }
 
 .entry {
